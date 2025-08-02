@@ -1,0 +1,46 @@
+🔍 Explanation of the Question:
+You are given:
+
+A budget b
+
+A list of keyboard prices
+
+A list of USB drive prices
+
+Your task is to find the maximum amount of money that can be spent on one keyboard and one USB drive, without going over the budget.
+
+✅ Your Goal:
+Buy one keyboard and one USB drive
+
+Total cost must be ≤ budget
+
+Return the maximum total that can be spent
+
+If no combination fits in the budget, return -1
+
+🧠 Example:
+Input:
+
+yaml
+Copy
+Edit
+Budget: 10  
+Keyboards: [3, 1]  
+USB Drives: [5, 2, 8]
+Possible combinations (keyboard + USB):
+
+3 + 5 = 8 ✅
+
+3 + 2 = 5 ✅
+
+3 + 8 = 11 ❌ (too expensive)
+
+1 + 5 = 6 ✅
+
+1 + 2 = 3 ✅
+
+1 + 8 = 9 ✅ ✅✅ ← best option within budget
+
+So, the function should return 9.
+
+If no valid combo is found, return -1.

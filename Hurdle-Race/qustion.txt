@@ -1,0 +1,44 @@
+🏃‍♂️ What's the game about?
+You're playing a game where your character needs to jump over hurdles of different heights.
+
+🔢 You are given:
+k: The maximum height your character can jump naturally.
+
+height[]: An array of integers representing the height of each hurdle.
+
+🍵 Magic Potion
+If a hurdle is taller than what your character can jump (k), you need a magic potion.
+
+Each potion dose increases jump height by 1 unit.
+
+🎯 Your task:
+Return the minimum number of potion doses required to jump over all the hurdles.
+
+✅ If the character can already jump all hurdles:
+Then you should return 0 (no potion needed).
+
+📥 Sample Input:
+css
+Copy
+Edit
+5 4          ← 5 hurdles, character can jump up to height 4
+1 6 3 5 2    ← hurdle heights
+What happens?
+Max hurdle height = 6
+
+Character can jump = 4
+
+Needs to jump 6 - 4 = 2 more
+
+📤 Output = 2
+
+📥 Another Input:
+Copy
+Edit
+5 7
+2 5 4 5 2
+Max hurdle height = 5
+
+Character jump = 7 → Already enough
+
+📤 Output = 0
