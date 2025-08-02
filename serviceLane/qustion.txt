@@ -1,0 +1,114 @@
+🛣️ Problem Summary – Service Lane
+You’re given:
+
+A highway with a parallel service lane.
+
+The service lane has different widths at different points (represented as an array).
+
+A vehicle wants to travel from index start to index end (inclusive).
+
+The maximum size of vehicle that can pass through that segment is **equal to the smallest width in that segment.
+
+📥 Input:
+You are given:
+
+n: total number of width points
+
+t: number of test cases
+
+width[]: array of lane widths at each index
+
+t pairs of start and end indices (called cases)
+
+🎯 Goal:
+For each test case, determine:
+
+What is the minimum width from start to end?
+
+That’s the maximum size of vehicle that can safely pass that segment.
+
+📊 Example:
+Input:
+lua
+Copy
+Edit
+width = [2, 3, 1, 2, 3, 2, 3, 3]
+cases = [[0, 3], [4, 6], [6, 7], [3, 5], [0, 7]]
+Output:
+Copy
+Edit
+1
+2
+3
+2
+1
+💡 Explanation:
+Let’s take the first test case:
+
+ini
+Copy
+Edit
+Start = 0, End = 3 → widths = [2, 3, 1, 2]
+Minimum = 1 → So vehicle width must be ≤ 1
+Repeat this logic for all test cases.
+
+✅ Key Idea:
+For each segment, find the minimum width → that’s the maximum vehicle size that can pass.
+
+Let me know when you’re ready to write the code for this logic!
+
+
+
+
+
+
+
+
+You said:
+`t`: number of test cases
+
+what is test cases
+
+
+ChatGPT said:
+Great question, Aryan!
+
+🧪 What is a test case in this context?
+In this problem, a test case represents one driving scenario, where:
+
+The driver wants to go from a start index to an end index in the service lane.
+
+You need to determine the maximum vehicle width that can safely pass through that segment.
+
+📥 In the Input:
+When they say:
+
+Copy
+Edit
+8 5
+2 3 1 2 3 2 3 3
+0 3
+4 6
+6 7
+3 5
+0 7
+8 → number of widths (length of the service lane)
+
+5 → number of test cases (scenarios you need to evaluate)
+
+Then come 5 test cases:
+
+bash
+Copy
+Edit
+[0, 3]  → test case 1
+[4, 6]  → test case 2
+[6, 7]  → test case 3
+[3, 5]  → test case 4
+[0, 7]  → test case 5
+🧠 So a test case is:
+A pair of start and end indices — asking: what is the narrowest point in this segment?
+
+The answer tells you what kind of vehicle can fit.
+
+Let me know if you want to implement it next!
