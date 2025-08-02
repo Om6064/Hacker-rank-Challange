@@ -1,0 +1,27 @@
+You are given a string, and your task is to determine whether it's Funny or Not Funny based on a specific rule.
+
+🔍 The Rule:
+Reverse the string.
+
+For both the original and reversed strings:
+
+Calculate the absolute difference between ASCII values of adjacent characters.
+
+Example: For string acxz
+ASCII of a = 97, c = 99, x = 120, z = 122
+So:
+
+|a - c| = 2
+
+|c - x| = 21
+
+|x - z| = 2
+→ Result: [2, 21, 2]
+
+If the differences are the same in both the original and reversed string → It is Funny.
+Otherwise → It is Not Funny.
+
+🧠 Your goal:
+Check if both the original string and its reverse have the same sequence of ASCII differences.
+
+Let me know if you’d like help writing the function or want a dry run of a sample test case.
