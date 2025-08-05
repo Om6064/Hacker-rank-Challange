@@ -1,0 +1,42 @@
+🍫 Story/Scenario:
+Two kids, Lily and Ron, have a chocolate bar made of squares, each square has a number on it.
+
+Lily wants to give Ron a segment (a continuous part) of the chocolate bar such that:
+
+🍰 The number of squares she gives = Ron’s birth month (m)
+
+🎂 The sum of those numbers on the squares = Ron’s birth day (d)
+
+🧠 Your Job:
+You are given:
+
+A list of integers (the chocolate squares)
+
+Ron’s birth day (d) and birth month (m)
+
+You must:
+
+Count how many segments (continuous pieces) in the chocolate match the above two rules
+
+📝 Example:
+Chocolate bar: [1, 2, 1, 3, 2]
+Ron’s birthday: d = 3 (day), m = 2 (month)
+
+Now look for segments of 2 squares that sum to 3:
+
+[1, 2] → sum = 3 ✅
+
+[2, 1] → sum = 3 ✅
+
+[1, 3] → sum = 4 ❌
+
+[3, 2] → sum = 5 ❌
+
+✅ So 2 valid ways → Output: 2
+
+✅ Key Points:
+Only look at continuous segments (no skipping)
+
+Count how many match the length = m and sum = d
+
+Let me know if you want logic or code for this too!
