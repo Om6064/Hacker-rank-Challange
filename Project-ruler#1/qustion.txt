@@ -1,0 +1,42 @@
+📜 What’s given
+You have t test cases.
+
+For each test case, you’re given a number n.
+
+🎯 Your task
+For each n:
+
+Find all numbers less than n that are multiples of 3 or 5.
+
+Add them all together.
+
+Print the sum.
+
+📌 Example
+Input:
+
+Copy
+Edit
+2
+10
+100
+Case 1: n = 10
+Numbers less than 10 that are multiples of 3 or 5 → 3, 5, 6, 9
+Sum = 23
+
+Case 2: n = 100
+Numbers less than 100 that are multiples of 3 or 5 → sum = 2318
+
+Output:
+
+yaml
+Copy
+Edit
+23
+2318
+🔍 Key point
+You never include n itself (only numbers below n).
+
+Multiples of both 3 and 5 (like 15, 30, etc.) are still only added once.
+
+If you want, I can show you how to solve this without looping through all numbers, using a math formula. That’s the trick Project Euler expects.

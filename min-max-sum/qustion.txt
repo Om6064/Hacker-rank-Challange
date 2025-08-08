@@ -1,0 +1,40 @@
+🧮 What You’re Given:
+You will receive five positive integers.
+
+🎯 Your Task:
+From those 5 numbers, choose any 4 numbers at a time.
+
+For each such combination, calculate the sum of the 4 numbers.
+
+Out of all the possible sums:
+
+Find the minimum sum
+
+Find the maximum sum
+
+Print both values on the same line, separated by a space.
+
+✅ Example:
+For input:
+
+Copy
+Edit
+1 2 3 4 5
+You can make these 5 sums by skipping one number each time:
+
+2 + 3 + 4 + 5 = 14
+
+1 + 3 + 4 + 5 = 13
+
+1 + 2 + 4 + 5 = 12
+
+1 + 2 + 3 + 5 = 11
+
+1 + 2 + 3 + 4 = 10
+
+👉 So print:
+
+Copy
+Edit
+10 14
+Let me know if you want help with the code too!
